@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "postinstall": "rndebugger-open"
   },
   "dependencies": {
     "cavy": "^0.6.1",
@@ -16,6 +15,7 @@
     "babel-jest": "23.6.0",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.48.0",
+    "react-native-debugger-open": "^0.3.17",
     "react-test-renderer": "16.5.0"
   },
   "jest": {

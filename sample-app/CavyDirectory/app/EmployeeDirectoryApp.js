@@ -46,5 +46,5 @@ class EmployeeDirectoryApp extends Component {
   }
 }
 
-const TestableApp = hook(EmployeeDirectoryApp);
+const ΩfTestableApp = hook(EmployeeDirectoryApp);
 export default TestableApp;
